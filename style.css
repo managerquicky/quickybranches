@@ -1,0 +1,117 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Prompt',sans-serif;
+}
+
+body{
+background:#f7f7f7;
+}
+
+header{
+background:#d70018;
+color:white;
+padding:30px 20px;
+text-align:center;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+header h1{
+font-size:40px;
+margin-top:10px;
+}
+
+header p{
+margin-top:8px;
+font-size:18px;
+}
+
+.logo{
+font-size:42px;
+font-weight:700;
+}
+
+.search-box{
+padding:20px;
+background:white;
+}
+
+.search-box input{
+width:100%;
+padding:15px;
+border-radius:12px;
+border:1px solid #ddd;
+font-size:18px;
+}
+
+#map{
+height:420px;
+width:100%;
+}
+
+#branchList{
+padding:20px;
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+gap:18px;
+}
+
+.card{
+background:white;
+border-radius:18px;
+padding:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.25s;
+}
+
+.card:hover{
+transform:translateY(-4px);
+}
+
+.card h2{
+color:#d70018;
+font-size:22px;
+margin-bottom:10px;
+}
+
+.card p{
+margin:6px 0;
+font-size:15px;
+}
+
+.card a{
+display:inline-block;
+margin-top:15px;
+background:#d70018;
+color:white;
+text-decoration:none;
+padding:10px 18px;
+border-radius:10px;
+font-weight:600;
+}
+
+footer{
+margin-top:40px;
+background:#222;
+color:white;
+text-align:center;
+padding:25px;
+line-height:2;
+}
+
+@media(max-width:768px){
+
+header h1{
+font-size:28px;
+}
+
+.logo{
+font-size:32px;
+}
+
+#map{
+height:300px;
+}
+
+}
